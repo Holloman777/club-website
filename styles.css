@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+   
+  }
+  
+  /* Base styles for the navbar */
+  .navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
+    padding: 10px 20px; 
+     color: white; 
+   position: relative
+    
+    
+   
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style for the navigation links list */
+  .nav-links {
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+  
+
+  }
+  
+  /* Style for each navigation link */
+  .nav-links li {
+    margin: 0 50px; 
+    margin-right: 50px;
+    padding-top: 20px;
+    
+  }
+  
+  /* Style for the links */
+  .nav-links a {
+    color: black; 
+    text-decoration: none;
+    font-size: 16px; 
+    font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  /* Optional: Add hover effect */
+  .nav-links a:hover {
+    
+  
+  }
+
+
+  /* home */
+
+  .home-text h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    margin-left: 20px;
+  }
+
+  .home-image {
+    display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 50vh; /* Height of the container */
+  width: 100%; /* Full width of its parent */
+    background-image: url('images/chess-image1.jpg');
+    background-size: cover; /* Cover the container while maintaining the aspect ratio */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+  }
+
+  /* gallery */
+
+  
+  
+
+  .gallery-images  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center; /* Ensure items are centered vertically if needed */
+  }
+
+  .gallery-images img {
+    display: block; /* Ensure images are block-level elements */
+  width: 400px;   /* Fixed width */
+  height: 400px;  /* Fixed height */
+  margin-bottom: 60px;      /* Remove any default margins */
+  padding: 0;     /* Remove any default padding */
+  }
+
+  .chess-text h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 30px;
+    padding-top: 60px;
+    line-height: 1.5;
+
+  }
+
+  .bottom-text h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+   padding-top: 20px;
+   padding-right:20px ;
+   text-align: center;
+   margin: 0;
+
+  }
+
+  .bottom-image-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center;     /* Vertically centers the image (if the container has a height) */
+    height: 100vh;  
+    margin: 0;               /* Remove any extra margins */
+    padding: 0;      
+         
+    
+  }
+
+  .bottom-image-container img {
+    height: auto;      /* Maintain aspect ratio */
+    width: 80%;        /* Adjust width percentage to fit your needs */
+    max-width: 600px;  /* Limit the maximum width */
+    display: block;    /* Remove any extra space below the image */
+    margin-left: 45px; 
+    
+  }
+
+  .bottom-text h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+
+  }
